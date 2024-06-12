@@ -1,0 +1,113 @@
+.about-us-banner {
+    background: url('/images/workshop.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.about-banner-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px 20px;
+    border-radius: 8px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.about-us-banner h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.about-us-banner p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.company-overview, .mission-vision, .team {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.company-overview h2, .mission-vision h2, .team h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #007BFF;
+}
+
+.company-overview p, .mission-vision p, .team p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text-image {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.text-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.text-image .text {
+    flex: 2;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .mission-vision {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+}
