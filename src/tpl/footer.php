@@ -1,7 +1,7 @@
 <?php include __DIR__. "/../config.php";?>
 <footer>
     Copyright © <?= $full_name ?> All Rights Reserved. <br>
-    Tel: <?= $telphone ?> Email: <?= $email ?> Address: <?= $address ?>
+    Tel: <?= $telphone ?> Email: <a href="mailto:<?= $email ?>"><?= $email ?></a> Address: <?= $address ?>
     <div class="container">
         <!-- <ul class="footer-nav">
             <li><a href="index.php">Home</a></li>

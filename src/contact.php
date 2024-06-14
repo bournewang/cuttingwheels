@@ -15,7 +15,7 @@ include __DIR__."/config.php";
 <section class="contact">
     <div class="container">
         <div class="text-image" >
-            <!-- <img src="/images/contact.jpg" alt="Contact Image"> -->
+            <img src="/images/office.jpg" alt="Contact Image">
             <div class="text">
                 <h2>Get in Touch</h2>
                 <p>We are here to answer any questions you may have about our products and services. Contact us today to learn more.</p>

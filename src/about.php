@@ -31,13 +31,19 @@ ob_start();
 
 <section class="mission-vision">
     <div class="container">
-        <div class="mission">
-            <h2>Our Mission</h2>
-            <p>To deliver superior quality products at competitive prices, ensuring customer satisfaction through exceptional service.</p>
+        <div class="text-image">
+            <img src="/images/mission.jpg"/>
+            <div class="text">
+                <h2>Our Mission</h2>
+                <p>At Jinmingwei, our mission is to deliver superior quality products at competitive prices, ensuring customer satisfaction through exceptional service. We strive to meet and exceed the expectations of our clients by providing cutting and grinding wheels that are durable, efficient, and reliable. Our commitment to quality is reflected in every stage of our production process, from sourcing the finest raw materials to employing advanced manufacturing techniques and rigorous quality control measures. We believe that excellent service is as important as top-notch products, and we are dedicated to building long-lasting relationships with our customers through responsive support, timely delivery, and continuous improvement.</p>
+            </div>
         </div>
-        <div class="vision">
-            <h2>Our Vision</h2>
-            <p>To be a globally recognized leader in the abrasives industry, known for innovation and excellence.</p>
+        <div class="text-image">
+            <img src="/images/vision.jpg"/>
+            <div class="text">
+                <h2>Our Vision</h2>
+                <p>Our vision at Jinmingwei is to be a globally recognized leader in the abrasives industry, known for innovation and excellence. We aim to set the standard for quality and performance in cutting and grinding solutions, pushing the boundaries of technology and design to create products that meet the evolving needs of our customers. We envision a future where Jinmingwei is synonymous with cutting-edge abrasives, trusted by professionals worldwide for their precision, durability, and superior performance. Through sustained innovation, strategic partnerships, and a relentless focus on excellence, we aspire to drive the industry forward and contribute to the success of our clients across the globe.</p>                
+            </div>
         </div>
     </div>
 </section>
