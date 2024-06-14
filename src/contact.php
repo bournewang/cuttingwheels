@@ -2,7 +2,7 @@
 $title = 'Contact Us - Jinmingwei New Material Technology Co., Ltd.';
 
 ob_start();
-include "config.php";
+include __DIR__."/config.php";
 ?>
 
 <section class="contact-banner">

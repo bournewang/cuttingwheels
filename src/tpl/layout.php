@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $title; ?></title>
+    <title><?= $title; ?></title>
     <link rel="stylesheet" href="/style.php">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
     <?php include 'header.php'; ?>
     
     <main>
-        <?php echo $content; ?>
+        <?= $content; ?>
     </main>
     
     <?php include 'footer.php'; ?>

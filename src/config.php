@@ -8,7 +8,7 @@ $email      = "info@cuttingwheels.net";
 $contact    = "Mr Zhang";
 
 $team   = [
-    ['title' => 'CEO', 'name' => 'Mr Zhang', 'avatar' => '/images/ceo.jpg'],
-    ['title' => 'COO', 'name' => 'Mr Zhang', 'avatar' => '/images/coo.jpg'],
+    ['title' => 'CEO', 'name' => 'Zhang Yanwei',    'avatar' => '/images/avatar.jpg'],
+    ['title' => 'COO', 'name' => 'Zhang Jiadong',   'avatar' => '/images/avatar.jpg'],
 ];
 // ];

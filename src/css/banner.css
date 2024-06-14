@@ -1,5 +1,4 @@
 .banner, .products-banner, .about-us-banner, .certifications-banner, .market-banner, .contact-banner {
-    background: url('/images/banner.jpg') no-repeat center center/cover;
     background-size: cover;
     height: 400px;
     display: flex;
@@ -8,6 +7,14 @@
     color: white;
     text-align: center;
     position: relative;
+}
+
+.banner{
+    background: url('/images/banner.jpg') no-repeat center center/cover;
+}
+
+.products-banner{
+    background: url('/images/factory.jpg') no-repeat center center/cover;
 }
 
 .banner-content, .products-banner-content, .about-banner-content, .certifications-banner-content, .market-banner-content, .contact-banner-content {

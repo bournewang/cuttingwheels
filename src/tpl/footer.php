@@ -1,4 +1,4 @@
-<?php include "config.php";?>
+<?php include __DIR__. "/../config.php";?>
 <footer>
     Copyright © <?= $full_name ?> All Rights Reserved. <br>
     Tel: <?= $telphone ?> Email: <?= $email ?> Address: <?= $address ?>
@@ -22,3 +22,17 @@
         </form> -->
     </div>
 </footer>
+
+<script>
+        // main.js
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', function () {
+        navLinks.classList.toggle('nav-active');
+    });
+});
+
+</script>
+

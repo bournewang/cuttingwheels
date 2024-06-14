@@ -57,7 +57,8 @@ if (file_exists($stylePhpFile)) {
 
 // Function to update CSS references in HTML content
 function updateCssReferences($content) {
-    return str_replace('style.php', 'css/style.css', $content);
+    $suffix = '?built=' . date('Ymd-His');
+    return str_replace('style.php', 'css/style.css'.$suffix, $content);
 }
 
 foreach ($phpFiles as $phpFile) {
