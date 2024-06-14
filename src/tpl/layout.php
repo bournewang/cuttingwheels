@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <?php include __DIR__ . "/../config.php";?>
+    <title>High-Quality Cutting and Grinding Wheels | <?= $short_name ?></title>
+    <meta name="description" content="Discover top-quality cutting and grinding wheels directly from the factory. Reliable industrial tools for all your needs.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $title; ?></title>
     <link rel="stylesheet" href="/style.php">

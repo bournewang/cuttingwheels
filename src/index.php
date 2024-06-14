@@ -1,4 +1,5 @@
 <?php
+include "config.php";
 $title = 'Home - Jinmingwei New Material Technology Co., Ltd.';
 
 ob_start();
@@ -10,7 +11,7 @@ $products = [
 
 <section class="banner">
     <div class="banner-content">
-        <h1>Quality Grinding Wheels for Global Industries</h1>
+        <h1>Quality Cutting and Grinding Wheels for Global Industries</h1>
         <p>Leading manufacturer of high-quality abrasives and grinding wheels</p>
         <a href="products.php" class="btn">Explore Our Products</a>
     </div>
@@ -21,8 +22,8 @@ $products = [
         <div class="text-image">
             <!-- <img src="/images/banner.jpg" alt="Factory Image"> -->
             <div class="text">
-                <h2>Welcome to Zhengzhou Jinmingwei New Material Technology Co., Ltd.</h2>
-                <p>With over 20 years of expertise, Zhengzhou Jinmingwei New Material Technology Co., Ltd. specializes in manufacturing high-quality abrasives and grinding wheels. Our advanced production equipment and technology, combined with comprehensive testing instruments and professional personnel, ensure the highest quality products.</p>
+                <h2><?= $welcome ?></h2>
+                <p>With over 20 years of expertise, <?= $short_name ?> specializes in manufacturing high-quality abrasives and grinding wheels. Our advanced production equipment and technology, combined with comprehensive testing instruments and professional personnel, ensure the highest quality products.</p>
             </div>
         </div>
     </div>
