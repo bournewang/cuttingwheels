@@ -112,6 +112,35 @@
     }
 }
 
+
+
+
+/* Gallery styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: calc(33.333% - 10px);
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .gallery img {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery img {
+        width: 100%;
+    }
+}
 .banner, .products-banner, .about-us-banner, .certifications-banner, .market-banner, .contact-banner {
     background-size: cover;
     height: 400px;

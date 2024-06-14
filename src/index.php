@@ -32,9 +32,9 @@ $products = [
     <?php include "tpl/products-showcase.php"; ?>
 </section>
 
-<section class="certifications">
-    <?php include "tpl/certificate.php";?>
-</section>
+<!-- <section class="certifications">
+    < include "tpl/certificate.php";>
+</section> -->
 
 
 <!-- <section class="market">

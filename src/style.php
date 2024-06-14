@@ -1,5 +1,8 @@
 <?php
-header("Content-Type: text/css");
+if (php_sapi_name() != "cli") {
+    header("Content-Type: text/css");
+}
+
 
 // Directory containing CSS files
 $cssDir = __DIR__ . '/css';

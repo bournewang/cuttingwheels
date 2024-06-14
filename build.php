@@ -5,6 +5,24 @@ $distDir = 'dist';
 $cssDir = 'css';
 $imagesDir = 'images';
 
+
+// Function to execute a system command and display its output
+function execCommand($command) {
+    echo "Executing: $command\n";
+    system($command, $retval);
+    if ($retval !== 0) {
+        echo "Command failed with return value $retval\n";
+        exit($retval);
+    }
+}
+
+// Delete and recreate the dist directory
+if (is_dir($distDir)) {
+    echo "Deleting existing $distDir directory...\n";
+    execCommand("rm -rf $distDir");
+}
+
+
 // Function to recursively copy directories
 function copyDir($src, $dst) {
     $dir = opendir($src);

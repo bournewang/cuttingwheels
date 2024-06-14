@@ -20,6 +20,12 @@ ob_start();
                 <p>Zhengzhou Jinmingwei New Material Technology Co., Ltd. is a leading manufacturer of abrasives and grinding wheels with over 20 years of experience. We are equipped with advanced production equipment and technology, and have a complete set of testing instruments and professional personnel to provide you with the highest quality products.</p>
             </div>
         </div>
+
+        <div class="gallery">
+            <?php foreach ($gallery as $url => $alt){ ?>
+                <img src="/images/<?= $url ?>" alt="<?=$alt?>">
+            <?php } ?>
+        </div>
     </div>
 </section>
 
