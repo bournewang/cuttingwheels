@@ -10,6 +10,9 @@ include 'tpl/products-banner.php';
             <!-- Product Image -->
             <div class="product-image">
                 <img class="responsive-img" src="images/<?= $product['image']?>" alt="<?= $product['series']?>">
+                <h2 style="color: #e74c3c">Contact Us Now: </h2>
+                <h2><?= $telphone ?></h2>
+
             </div>
 
             <!-- Product Information -->
