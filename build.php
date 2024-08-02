@@ -51,7 +51,13 @@ $phpFiles = [
     'certifications.php',
     'market.php',
     'products.php',
-    'contact.php'
+    'contact.php',
+    'product-0.php',
+    'product-1.php',
+    'product-2.php',
+    'product-3.php',
+    'product-4.php',
+    'product-5.php',
     // Add more PHP files as needed
 ];
 

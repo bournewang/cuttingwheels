@@ -676,3 +676,74 @@ nav ul li a:hover {
     }
 }
 
+
+.product-detail {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product-image{
+    padding: 1em;
+    max-width: 50%;
+}
+@media (max-width: 768px) {
+    .product-image {
+        max-width: 96%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .product-image {
+        max-width: 50%;
+    }
+}
+
+.product-info {
+    flex: 1;
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+    .product-info {
+        margin-left: 20px;
+    }
+}
+
+.product-info h2 {
+    margin-top: 0;
+}
+
+.price {
+    font-size: 24px;
+    color: #c00;
+    margin: 10px 0;
+}
+
+.description {
+    margin: 20px 0;
+}
+
+.specifications {
+    list-style-type: none;
+    padding: 0;
+}
+
+.specifications li {
+    margin-bottom: 10px;
+}
+
+.purchase-options {
+    margin-top: 20px;
+}
+
+.purchase-options button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.purchase-options button:hover {
+    background-color: #0056b3;
+}

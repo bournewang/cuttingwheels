@@ -2,6 +2,7 @@
 $title = 'Products - Jinmingwei New Material Technology Co., Ltd.';
 
 ob_start();
+include 'config.php';
 include 'tpl/products-banner.php';
 // include 'product-categories.php';
 include "tpl/products-showcase.php";

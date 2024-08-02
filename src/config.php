@@ -25,3 +25,61 @@ $gallery = [
     "photo-8.jpg" => "The finished grinding wheels are packed and ready for shipment.",
     // "photo-9.jpg" => "The finished grinding wheels are packed and ready for shipment.",
 ];
+
+$cutting_disc_desc  = file_get_contents(dirname(__FILE__).'/cutting-disc-desc.html');
+$mesh_disc_desc     = file_get_contents(dirname(__FILE__).'/mesh-disc-desc.html');
+$grinding_disc_desc = file_get_contents(dirname(__FILE__).'/grinding-disc-desc.html');
+
+$products = [
+    [
+        'series' =>'Cutting Disc', 
+        'description' => $cutting_disc_desc,
+        'image' => 'image1.jpg',
+        'spec' => ["405*3.2*32"]
+    ],
+    [
+        'series' =>'Cutting Disc', 
+        'description' => $cutting_disc_desc,
+        'image' => 'image1.jpg',
+        'spec' => ["355*2.8*25.4"]
+    ],
+    [
+        'series' =>'Cutting Disc', 
+        'description' => $cutting_disc_desc,
+        'image' => 'image3.jpg',
+        'spec' => [
+            "107*1.2*16", 
+            "115*1.2*22", 
+            "125*1.2*22", 
+            "150*1.6*22", 
+            "180*1.6*22", 
+            "230*2*22"
+        ]
+    ],
+    [
+        'series' =>'Single Mesh Cutting Disc',
+        'description' => $mesh_disc_desc,
+        'image' => 'image4.jpg',
+        'spec' => ["107*1.2*16"]
+    ],
+    [
+        'series' =>'Grinding Disc',
+        'description' => $grinding_disc_desc,
+        'image' => 'image5.jpg',
+        'spec' => [
+            "100*6*16",  
+            "115*6*22",
+            "125*6*22",
+        ]
+    ],
+    [
+        'series' =>'Grinding Disc',
+        'description' => $grinding_disc_desc,
+        'image' => 'image6.jpg',
+        'spec' => [
+            "150*6*22",
+            "180*6*22",
+            "230*6*22"
+        ]
+    ]
+];
