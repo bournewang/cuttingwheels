@@ -4,7 +4,7 @@ $title = 'Home - Jinmingwei New Material Technology Co., Ltd.';
 
 ob_start();
 
-include "config";
+include "config.php";
 ?>
 
 <section class="banner">
