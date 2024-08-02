@@ -4,9 +4,7 @@ $title = 'Home - Jinmingwei New Material Technology Co., Ltd.';
 
 ob_start();
 
-$products = [
-    ["title" => "", ]
-]
+include "config";
 ?>
 
 <section class="banner">
