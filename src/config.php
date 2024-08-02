@@ -1,8 +1,8 @@
 <?php
 // return [
 $full_name  = "Zhengzhou Jinmingwei New Material Technology Co., Ltd.";
-$short_name = "Jinmingwei New Material";
-$welcome    = "Welcome to Jinmingwei - High-Quality Grinding Wheel Manufacturer";
+$short_name = "Jinmingwei Cutting & Grinding Wheel";
+$welcome    = "Welcome to Jinmingwei - High-Quality Cutting & Grinding Wheel Manufacturer";
 $address    = "86# Industrial Zone, Zhengzhou, China";
 $telphone   = "+86 156-4908-8999, +86 130-0751-5699";
 $email      = "sales@cuttingwheels.net";
