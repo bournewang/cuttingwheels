@@ -11,9 +11,41 @@ include "config.php";
     <div class="banner-content">
         <h1>Quality Cutting and Grinding Wheels for Global Industries</h1>
         <p>Leading manufacturer of high-quality abrasives and grinding wheels</p>
-        <a href="products.php" class="btn">Explore Our Products</a>
+        <div class="banner-buttons">
+            <a href="products.php" class="btn">Explore Our Products</a>
+            <?php include 'tpl/whatsapp-button.php'; ?>
+        </div>
     </div>
 </section>
+
+<style>
+    .banner-buttons {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .banner-buttons .btn,
+    .banner-buttons .whatsapp-button {
+        padding: 12px 24px;
+        border-radius: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        min-width: 200px;
+        transition: all 0.3s ease;
+    }
+
+    .banner-buttons .whatsapp-button {
+        margin-top: 0;
+    }
+
+    .banner-buttons .btn:hover {
+        background-color: #c0392b;
+    }
+</style>
 
 <section class="introduction">
     <div class="container">

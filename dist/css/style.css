@@ -686,6 +686,7 @@ nav ul li a:hover {
 .product-image{
     padding: 1em;
     max-width: 50%;
+    text-align: center;
 }
 @media (max-width: 768px) {
     .product-image {

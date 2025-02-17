@@ -4,7 +4,7 @@ $full_name  = "Zhengzhou Jinmingwei New Material Technology Co., Ltd.";
 $short_name = "Jinmingwei Cutting & Grinding Wheel";
 $welcome    = "Welcome to Jinmingwei - High-Quality Cutting & Grinding Wheel Manufacturer";
 $address    = "86# Industrial Zone, Zhengzhou, China";
-$telphone   = "+86 156-4908-8999, +86 130-0751-5699";
+$telphone   = "+8613817635183";
 $email      = "info@cuttingwheels.net";
 $contact    = "Mr Zhang";
 
@@ -14,8 +14,8 @@ $team   = [
 ];
 
 $gallery = [
-    "photo-0.jpg" => "Cutting Wheels Machine",
-    "photo-1.jpg" => "Cutting Wheels Machine",
+    // "photo-0.jpg" => "Cutting Wheels Machine",
+    // "photo-1.jpg" => "Cutting Wheels Machine",
     "photo-2.jpg" => "Cutting Wheels Machine",
     "photo-3.jpg" => "Cutting Wheels Plant",
     "photo-4.jpg" => "Cutting Wheels heating furnace",
@@ -31,12 +31,12 @@ $mesh_disc_desc     = file_get_contents(dirname(__FILE__).'/mesh-disc-desc.html'
 $grinding_disc_desc = file_get_contents(dirname(__FILE__).'/grinding-disc-desc.html');
 
 $products = [
-    [
-        'series' =>'Cutting Disc', 
-        'description' => $cutting_disc_desc,
-        'image' => 'image1.jpg',
-        'spec' => ["405*3.2*32"]
-    ],
+    // [
+    //     'series' =>'Cutting Disc', 
+    //     'description' => $cutting_disc_desc,
+    //     'image' => 'image1.jpg',
+    //     'spec' => ["405*3.2*32"]
+    // ],
     [
         'series' =>'Cutting Disc', 
         'description' => $cutting_disc_desc,
