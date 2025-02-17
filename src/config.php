@@ -5,7 +5,7 @@ $short_name = "Jinmingwei Cutting & Grinding Wheel";
 $welcome    = "Welcome to Jinmingwei - High-Quality Cutting & Grinding Wheel Manufacturer";
 $address    = "86# Industrial Zone, Zhengzhou, China";
 $telphone   = "+86 156-4908-8999, +86 130-0751-5699";
-$email      = "sales@cuttingwheels.net";
+$email      = "info@cuttingwheels.net";
 $contact    = "Mr Zhang";
 
 $team   = [
