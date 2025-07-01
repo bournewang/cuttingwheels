@@ -117,5 +117,7 @@ foreach ($phpFiles as $phpFile) {
 // copyDir("$srcDir/$cssDir", "$distDir/$cssDir");
 copyDir("$srcDir/$imagesDir", "$distDir/$imagesDir");
 
+copy("ads.txt", "$distDir/ads.txt");
+
 echo "Copied $cssDir and $imagesDir directories to $distDir\n";
 ?>
