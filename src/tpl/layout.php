@@ -17,6 +17,17 @@
 <body>
     <?php include 'header.php'; ?>
     
+    <!-- ad1 -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-7286645003075205"
+        data-ad-slot="8401581612"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
     <main>
         <?= $content; ?>
     </main>
